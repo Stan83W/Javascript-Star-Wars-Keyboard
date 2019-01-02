@@ -9,11 +9,22 @@ body,html {
   padding: 0;
   font-family: 'Helvetica', sans-serif;
 }
-
+h1 {
+  color: #ffc600;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 30vh;
+  margin-top: 70px;
+}
+img {
+  color: white;
+}
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 30vh;
   align-items: center;
   justify-content: center;
 }
